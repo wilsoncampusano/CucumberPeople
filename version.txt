@@ -1,0 +1,26 @@
+--------------------------------------------------------
+Version :1.4.115 2015.01.12
+New Feature:
+
+1.Cucumber execution for ruby and debug;
+2.Cucumber execution colorred; 
+3.Add the plugin debug log feature ,if you met any expection ,please send this log file to deveoper;
+4.Add the plugin update automatically when eclipse startup;
+5.Add more Gui Automation framework for cucumber ,including more selenium feature;
+6.TestRail enhanced for uploading the execution result;
+7.Fix the content assist problem sometimes;
+8.Cucumberpeople website update;
+Bug Fixed:
+None
+---------------------------------------------------------
+--------------------------------------------------------
+Version :1.3.20 2014.12.06
+New Feature:
+
+1.Add the ruby debug feature;
+2.Pretty output the execution result;
+3.Upload the execution result into testrail;
+
+Bug Fixed:
+None
+---------------------------------------------------------

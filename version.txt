@@ -1,3 +1,10 @@
+Version :1.4.130 2015.01.25
+New Feature:
+
+1.Fix some issues for runtime error;
+2.add the validation support;
+Bug Fixed:
+None
 --------------------------------------------------------
 Version :1.4.115 2015.01.12
 New Feature:

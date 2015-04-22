@@ -1,12 +1,23 @@
-Version :1.4.130 2015.01.25
+--------------------------------------------------------
+Version: 1.4.135 2014.05.22
+New Feature:
+1. Support for java cucumber framework with jenkins ;
+2. Jenkins integration for email notifincation and beauty report(Jenkins plugin name: cucumber-builder);
+
+Bug Fixed:
+1. Fix some platform issues and aptana installation issue;
+
+--------------------------------------------------------
+Version: 1.4.130 2015.01.25
 New Feature:
 
 1.Fix some issues for runtime error;
 2.add the validation support;
+
 Bug Fixed:
 None
 --------------------------------------------------------
-Version :1.4.115 2015.01.12
+Version: 1.4.115 2015.01.12
 New Feature:
 
 1.Cucumber execution for ruby and debug;
@@ -17,11 +28,12 @@ New Feature:
 6.TestRail enhanced for uploading the execution result;
 7.Fix the content assist problem sometimes;
 8.Cucumberpeople website update;
+
 Bug Fixed:
 None
 ---------------------------------------------------------
 --------------------------------------------------------
-Version :1.3.20 2014.12.06
+Version: 1.3.20 2014.12.06
 New Feature:
 
 1.Add the ruby debug feature;

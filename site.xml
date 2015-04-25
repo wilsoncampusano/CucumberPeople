@@ -3,9 +3,6 @@
    <description name="cucumberpeople update site" url="http://alterhu.github.io/CucumberPeople/">
       CucumberPeople is an eclipse plugin based on RubyMine, Not only includes all the Cucumber Features as RubyMine published already, but also provides many enhanced project features, and It&apos;s always OPEN AND FREE
    </description>
-   <feature url="features/org.cucumberpeople.eclipse.plugin.feature_1.4.115.201501111505.jar" id="org.cucumberpeople.eclipse.plugin.feature" version="1.4.115.201501111505">
-      <category name="org.cucumberpeople.eclipse.plugin"/>
-   </feature>
    <feature url="features/com.eviware.soapui.soapui_feature_4.0.1.jar" id="com.eviware.soapui.soapui_feature" version="4.0.1">
       <category name="org.cucumberpeople.eclipse.plugin.soapui"/>
    </feature>
@@ -14,6 +11,9 @@
    </feature>
    <feature url="features/com.aptana.feature.studio_3.7.0.201412082202-7f7F37jBVfhuQKaH3WrJDsf2hC__.jar" id="com.aptana.feature.studio" version="3.7.0.201412082202-7f7F37jBVfhuQKaH3WrJDsf2hC__">
       <category name="org.cucumberpeople.eclipse.plugin.aptana"/>
+   </feature>
+   <feature url="features/org.cucumberpeople.eclipse.plugin.feature_1.4.135.201504251643.jar" id="org.cucumberpeople.eclipse.plugin.feature" version="1.4.135.201504251643">
+      <category name="org.cucumberpeople.eclipse.plugin"/>
    </feature>
    <category-def name="org.cucumberpeople.eclipse.plugin" label="Eclipse Plugin for Cucumber">
       <description>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cucumber Html Reports - Replay Overview</title>
+<link rel="stylesheet" href="blue/css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="blue/css/skin/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="blue/css/960.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="blue/css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="blue/css/text.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="blue/favicon.ico" />
+
+
+</head>
+<body id="top">
+<div id="fullwidth_header">
+		<div class="container_12">
+			<h1 class="grid_4 logo"><a href="feature-overview.html" class="ie6fix">Cucumber</a></h1>
+			<div class="grid_6" id="nav">
+				<ul>
+                                            <li><a href="${jenkins_base}job/$build_project/$build_number">Back To Jenkins</a></li>
+                    				<li><a href="feature-overview.html">Feature Overview</a></li>
+				</ul>
+			</div>
+		</div>
+</div>
+<div id="fullwidth_gradient">
+		<div class="container_12">
+			<div class="grid_9 heading">
+				<h2 id="overview-title">Execution Tracking for Build: $build_number</h2>
+				<span class="subhead">The following video shows the whole execution process:</span><br/>
+			    <span><video width="1000" height="600" autoplay controls>
+				  <source src="${video_file}" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video></span>
+			    <!--video_file   screenshot_file -->
+			  
+			</div>
+		</div>
+</div>
+
+<br>
+<div class="grid_12">
+	<div class="grid_12">
+	<br/>
+</div>
+
+<br/>
+<div class="container_12">
+		<div class="grid_12 hr"></div>
+		   <p style="text-align:center;">&copy; $copyright_name</p>
+		  <p style="text-align:center;">Report version: $version generated at $time_stamp using <a href="https://github.com/masterthought/cucumber-reporting">cucumber-reporting</a></p>
+
+	</div>
+	<div class="clear"></div>
+</body>
+</html>

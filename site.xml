@@ -9,11 +9,11 @@
    <feature url="features/com.perforce.team.feature_2014.1.965331.jar" id="com.perforce.team.feature" version="2014.1.965331">
       <category name="org.cucumberpeople.eclipse.plugin.perforce"/>
    </feature>
-   <feature url="features/com.aptana.feature.studio_3.7.0.201412082202-7f7F37jBVfhuQKaH3WrJDsf2hC__.jar" id="com.aptana.feature.studio" version="3.7.0.201412082202-7f7F37jBVfhuQKaH3WrJDsf2hC__">
-      <category name="org.cucumberpeople.eclipse.plugin.aptana"/>
-   </feature>
-   <feature url="features/org.cucumberpeople.eclipse.plugin.feature_1.4.135.201504251643.jar" id="org.cucumberpeople.eclipse.plugin.feature" version="1.4.135.201504251643">
+   <feature url="features/org.cucumberpeople.eclipse.plugin.feature_1.4.135.qualifier.jar" id="org.cucumberpeople.eclipse.plugin.feature" version="1.4.135.qualifier">
       <category name="org.cucumberpeople.eclipse.plugin"/>
+   </feature>
+   <feature url="features/com.aptana.feature.studio_3.6.0.201407100643-7f7D37k6bPlkbrRb8WuT8t_CCL4C.jar" id="com.aptana.feature.studio" version="3.6.0.201407100643-7f7D37k6bPlkbrRb8WuT8t_CCL4C">
+      <category name="org.cucumberpeople.eclipse.plugin.aptana"/>
    </feature>
    <category-def name="org.cucumberpeople.eclipse.plugin" label="Eclipse Plugin for Cucumber">
       <description>

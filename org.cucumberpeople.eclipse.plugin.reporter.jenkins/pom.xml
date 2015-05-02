@@ -1,0 +1,124 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>1.532</version>
+        <!-- which version of Jenkins is this plugin built against? -->
+  </parent>
+  
+  <groupId>org.cucumberpeople.eclipse.plugin.reporter.jenkins</groupId>
+  <artifactId>cucumber-builder</artifactId>
+  <version>1.1.3</version>
+  <packaging>hpi</packaging>
+   
+  
+   <properties>
+        <!-- explicitly specifying the latest version here because one we get from
+            the parent POM tends to lag behind a bit-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-hpi-plugin.version>1.98</maven-hpi-plugin.version>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+        <envinject.lib.version>1.21</envinject.lib.version>
+        <ivy.plugin.version>1.21</ivy.plugin.version>
+        <junit.version>4.9</junit.version>
+        <mockito.version>1.8.5</mockito.version>
+        <findbug.version>3.0.0</findbug.version>
+    </properties>
+  
+   
+    <licenses>
+        <license>
+            <comments>Use this project wherever you like</comments>
+            <name>LGPL 2.1</name>
+            <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+        </license>
+    </licenses>
+      
+   
+    <build>
+        <plugins>
+          <plugin>
+                <groupId>org.jenkins-ci.tools</groupId>
+                <artifactId>maven-hpi-plugin</artifactId>
+                <version>${maven-hpi-plugin.version}</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.cucumberpeople.eclipse.plugin.reporter</groupId>
+            <artifactId>cucumber.reporter</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+          <groupId>com.googlecode.totallylazy</groupId>
+          <artifactId>totallylazy</artifactId>
+          <version>1.20</version>
+       </dependency>
+       
+         <!-- For envInject plugin dependency -->
+       
+     
+      <dependency>
+            <groupId>org.jenkins-ci.main</groupId>
+            <artifactId>maven-plugin</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jenkins-ci.lib</groupId>
+            <artifactId>envinject-lib</artifactId>
+            <version>${envinject.lib.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>ivy</artifactId>
+            <version>${ivy.plugin.version}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>${findbug.version}</version>
+        </dependency>
+        
+    </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>            
+        </repository>
+        <repository>
+            <id>repo.bodar.com</id>
+            <url>http://repo.bodar.com</url>
+          </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+</project>

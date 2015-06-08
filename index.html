@@ -7,16 +7,32 @@
     <meta name="description" content="eclipse plugin for cucumber,automation framework">   
     <meta name="description" content="CucumberPeople : Eclipse plugin for cucumber,support all features for Cucumber ,and provide many GUI automation framework project templates.">
 
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../jquery/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../fancybox/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+	
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
      <link rel="Shortcut Icon" href="images/cukes.gif" type="image/x-icon"/>
     <title>CucumberPeople | Eclipse Plugin for Cucumber--Created By Alter Hu</title>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("a#release").fancybox();
+	});
+	</script>
   </head>
 
   <body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
+	    <div style="display: none;"><a id="release" href="images/cuke.gif"><img alt="latest release" src="images/cuke.gif" /></a></div>
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/Alterhu/CucumberPeople" target="_blank">View Alter GitHub</a>
 

@@ -3,37 +3,12 @@
    <description name="cucumberpeople update site" url="http://alterhu.github.io/CucumberPeople/">
       CucumberPeople is an eclipse plugin based on RubyMine, Not only includes all the Cucumber Features as RubyMine published already, but also provides many enhanced project features, and It&apos;s always OPEN AND FREE
    </description>
-   <feature url="features/com.eviware.soapui.soapui_feature_4.0.1.jar" id="com.eviware.soapui.soapui_feature" version="4.0.1">
-      <category name="org.cucumberpeople.eclipse.plugin.soapui"/>
-   </feature>
-   <feature url="features/com.perforce.team.feature_2014.1.965331.jar" id="com.perforce.team.feature" version="2014.1.965331">
-      <category name="org.cucumberpeople.eclipse.plugin.perforce"/>
-   </feature>
-   <feature url="features/org.cucumberpeople.eclipse.plugin.feature_1.4.135.qualifier.jar" id="org.cucumberpeople.eclipse.plugin.feature" version="1.4.135.qualifier">
+   <feature url="features/org.cucumberpeople.eclipse.plugin.feature_1.4.140.201506082108.jar" id="org.cucumberpeople.eclipse.plugin.feature" version="1.4.140.201506082108">
       <category name="org.cucumberpeople.eclipse.plugin"/>
-   </feature>
-   <feature url="features/com.aptana.feature.studio_3.6.0.201407100643-7f7D37k6bPlkbrRb8WuT8t_CCL4C.jar" id="com.aptana.feature.studio" version="3.6.0.201407100643-7f7D37k6bPlkbrRb8WuT8t_CCL4C">
-      <category name="org.cucumberpeople.eclipse.plugin.aptana"/>
    </feature>
    <category-def name="org.cucumberpeople.eclipse.plugin" label="Eclipse Plugin for Cucumber">
       <description>
          CucumberPeople is an eclipse plugin based on RubyMine, Not only includes all the Cucumber Features as RubyMine published already, but also provides many enhanced project features, and It&apos;s always OPEN AND FREE.
-      </description>
-   </category-def>
-   <category-def name="org.cucumberpeople.eclipse.plugin.aptana" label="Aptana Ruby Editor for Eclipse(Optional)">
-      <description>
-         http://download.aptana.com/studio3/plugin/install,If you need to use Ruby feature ,please check this feature. Also you can download it from this link:
-      </description>
-   </category-def>
-   <category-def name="org.cucumberpeople.eclipse.plugin.perforce" label="Perforce Plugin for Eclipse(Optional)">
-      <description>
-         - See more at:http://www.perforce.com/downloads/Perforce/20-User?qt-perforce_downloads_step_3=6#product-21
-      </description>
-   </category-def>
-   <category-def name="org.cucumberpeople.eclipse.plugin.soapui" label="SoapUI Plugin for Eclipse(Optional)">
-      <description>
-         refer this url  for this plugin:
-http://www.soapui.org/eclipse/update
       </description>
    </category-def>
 </site>

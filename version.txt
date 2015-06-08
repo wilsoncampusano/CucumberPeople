@@ -1,5 +1,5 @@
 --------------------------------------------------------
-Version: 1.4.140 2014.06.08
+Version: 1.4.140 2015.06.08
 New Feature:
 1. Java framework update;
 2. Support for linux or mac platform;
@@ -10,7 +10,7 @@ Bug Fixed:
 
 --------------------------------------------------------
 --------------------------------------------------------
-Version: 1.4.135 2014.05.22
+Version: 1.4.135 2015.05.22
 New Feature:
 1. Support for java cucumber framework with jenkins ;
 2. Jenkins integration for email notifincation and beauty report(Jenkins plugin name: cucumber-builder);

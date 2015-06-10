@@ -11,3 +11,6 @@ Feature: This is a sample feature file
      Given I open the url
      When I input my user name and password with "Alter" and "password"
      Then I should go to the home page
+     Given 
+     
+     		

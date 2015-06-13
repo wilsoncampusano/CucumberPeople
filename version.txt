@@ -1,4 +1,13 @@
 --------------------------------------------------------
+Version: 1.4.140 2015.06.13
+New Feature:
+None
+
+Bug Fixed:
+1. Fix intallation issues add the xtext dependencies;
+
+--------------------------------------------------------
+--------------------------------------------------------
 Version: 1.4.140 2015.06.08
 New Feature:
 1. Java framework update;

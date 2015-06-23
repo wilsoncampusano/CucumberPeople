@@ -1,4 +1,15 @@
 --------------------------------------------------------
+Version: 1.4.141 2015.06.21
+New Feature:
+None
+
+Bug Fixed:
+1. Fix intallation issues add the xtext dependencies ,rebuild the installer .
+
+PS: sorry for inconvenience about the installation. 
+
+--------------------------------------------------------
+--------------------------------------------------------
 Version: 1.4.140 2015.06.13
 New Feature:
 None
